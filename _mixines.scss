@@ -1,0 +1,27 @@
+@mixin second-size() {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@mixin social-tag() {
+    display: flex;
+    width: 20px;
+}
+
+@mixin social-tag-hover() {
+    border-color: $third-color;
+    background-color: $third-color;
+    color: white;
+    span {
+        display: flex;
+        width: 20px;
+    }
+}
+
+@mixin line() {
+    background-color: $third-color;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.35;
+    bottom: 5px;
+}
